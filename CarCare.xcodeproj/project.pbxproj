@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01753E4E1CAA6CE6002DFF41 /* FuelLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */; };
+		01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4F1CAA778D002DFF41 /* RxRealm.swift */; };
+		01753E521CAA780A002DFF41 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E511CAA780A002DFF41 /* R.generated.swift */; };
 		0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDBF1CA911E5005CB43D /* AppDelegate.swift */; };
 		0184BDC21CA911E5005CB43D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC11CA911E5005CB43D /* FirstViewController.swift */; };
 		0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC31CA911E5005CB43D /* SecondViewController.swift */; };
@@ -27,10 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLog.swift; sourceTree = "<group>"; };
+		01753E4F1CAA778D002DFF41 /* RxRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxRealm.swift; sourceTree = "<group>"; };
+		01753E511CAA780A002DFF41 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		0184BDBC1CA911E5005CB43D /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184BDBF1CA911E5005CB43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0184BDC11CA911E5005CB43D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0184BDC31CA911E5005CB43D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0184BDC11CA911E5005CB43D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		0184BDC31CA911E5005CB43D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		0184BDC61CA911E5005CB43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0184BDC81CA911E5005CB43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0184BDCB1CA911E5005CB43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +64,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01753E481CAA665F002DFF41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01753E491CAA6669002DFF41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01753E4A1CAA666F002DFF41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0184BDC11CA911E5005CB43D /* FirstViewController.swift */,
+				0184BDC31CA911E5005CB43D /* SecondViewController.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		01753E4B1CAA67CD002DFF41 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		01753E4C1CAA67D7002DFF41 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				01753E4F1CAA778D002DFF41 /* RxRealm.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0184BDB31CA911E5005CB43D = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +124,16 @@
 		0184BDBE1CA911E5005CB43D /* CarCare */ = {
 			isa = PBXGroup;
 			children = (
+				01753E4C1CAA67D7002DFF41 /* Helpers */,
+				01753E4B1CAA67CD002DFF41 /* Stores */,
+				01753E4A1CAA666F002DFF41 /* ViewModels */,
+				01753E491CAA6669002DFF41 /* Views */,
+				01753E481CAA665F002DFF41 /* Models */,
 				0184BDBF1CA911E5005CB43D /* AppDelegate.swift */,
-				0184BDC11CA911E5005CB43D /* FirstViewController.swift */,
-				0184BDC31CA911E5005CB43D /* SecondViewController.swift */,
 				0184BDC51CA911E5005CB43D /* Main.storyboard */,
 				0184BDC81CA911E5005CB43D /* Assets.xcassets */,
 				0184BDCA1CA911E5005CB43D /* LaunchScreen.storyboard */,
+				01753E511CAA780A002DFF41 /* R.generated.swift */,
 				0184BDCD1CA911E5005CB43D /* Info.plist */,
 			);
 			path = CarCare;
@@ -106,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0184BDDB1CA911E5005CB43D /* Build configuration list for PBXNativeTarget "CarCare" */;
 			buildPhases = (
+				0184BDE11CA91A61005CB43D /* ShellScript */,
 				0184BDB81CA911E5005CB43D /* Sources */,
 				0184BDB91CA911E5005CB43D /* Frameworks */,
 				0184BDBA1CA911E5005CB43D /* Resources */,
@@ -195,6 +245,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0184BDE11CA91A61005CB43D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0184BDB81CA911E5005CB43D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,7 +268,10 @@
 			files = (
 				0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */,
 				0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */,
+				01753E4E1CAA6CE6002DFF41 /* FuelLog.swift in Sources */,
 				0184BDC21CA911E5005CB43D /* FirstViewController.swift in Sources */,
+				01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */,
+				01753E521CAA780A002DFF41 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +459,7 @@
 				0184BDDD1CA911E5005CB43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0184BDDE1CA911E5005CB43D /* Build configuration list for PBXNativeTarget "CarCareTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +468,7 @@
 				0184BDE01CA911E5005CB43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
