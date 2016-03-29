@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CarCare Dev.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>CarCare.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>01753E531CAA832C002DFF41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0184BDBB1CA911E5005CB43D</key>
 		<dict>
 			<key>primary</key>
