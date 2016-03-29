@@ -1,0 +1,54 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Eureka (1.4.1)
+  - Format (0.2.0)
+  - NSObject+Rx (1.2.1):
+    - RxSwift (~> 2.1)
+  - ObjectMapper (1.1.5)
+  - R.swift (1.4.2):
+    - R.swift.Library (~> 1.2.2)
+  - R.swift.Library (1.2.2)
+  - Realm (0.98.6):
+    - Realm/Headers (= 0.98.6)
+  - Realm/Headers (0.98.6)
+  - RealmSwift (0.98.6):
+    - Realm (= 0.98.6)
+  - RxBlocking (2.3.0):
+    - RxSwift (~> 2.3)
+  - RxCocoa (2.3.0):
+    - RxSwift (~> 2.3)
+  - RxSwift (2.3.0)
+  - RxTests (2.3.0):
+    - RxSwift (~> 2.3)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - Eureka (~> 1.4.0)
+  - Format (~> 0.2)
+  - NSObject+Rx
+  - ObjectMapper (~> 1.1.5)
+  - R.swift (~> 1.4.2)
+  - RealmSwift
+  - RxBlocking (= 2.3.0)
+  - RxCocoa (= 2.3.0)
+  - RxSwift (= 2.3.0)
+  - RxTests (= 2.3.0)
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Eureka: 2f1921d3162491921d2fef3b516bc4ef93a05122
+  Format: f7dfbca0a5f2890f0001192692da8558b9a6f9d7
+  NSObject+Rx: 5d032a7f161602dec6b82dcf12731e91ce15b8da
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
+  R.swift: 031a557cdeeeb9e953265e170a99a426c3a1c5c2
+  R.swift.Library: 7c2283d21cad9d441b236bf6a9f6fa02625704de
+  Realm: 44803f35418c5d89b27825a564247fcd190de37e
+  RealmSwift: c7239c52c83f8c43525a5269ba7be1694da33afc
+  RxBlocking: 4616f93183a76aeee681262377e5c4aca0515b06
+  RxCocoa: cde4e993f496d2577bc3ba8b7dc7bf55a4ed809a
+  RxSwift: 0df59cc5edf28a31dbf83b049220b4b8e76b07c8
+  RxTests: 321381af540a52281f90f89c066e25c8f42d18fa
+
+COCOAPODS: 0.39.0
