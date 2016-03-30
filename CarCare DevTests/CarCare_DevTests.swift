@@ -1,15 +1,15 @@
 //
-//  CarCareTests.swift
-//  CarCareTests
+//  CarCare_DevTests.swift
+//  CarCare DevTests
 //
-//  Created by Nick Liu on 16/3/28.
+//  Created by Nick Liu on 16/3/30.
 //  Copyright © 2016年 Nick Liu. All rights reserved.
 //
 
 import XCTest
-@testable import CarCare
+@testable import CarCare_Dev
 
-class CarCareTests: XCTestCase {
+class CarCare_DevTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,6 +24,7 @@ class CarCareTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+      DefaultData.create()
     }
     
     func testPerformanceExample() {

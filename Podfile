@@ -13,7 +13,6 @@ abstract_target 'CarCare' do
   pod 'RxCocoa',    '~> 2.3.1'
   pod 'NSObject+Rx'
   pod 'ObjectMapper', '~> 1.2.0'
-  pod 'RealmSwift'
   
   target 'CarCare' do
   end
@@ -21,9 +20,9 @@ abstract_target 'CarCare' do
   target 'CarCare Dev' do
   end
   
-  target 'CarCareTests' do
-    pod 'RxTests',    '~> 2.3.1'
-    pod 'RxBlocking', '~> 2.3.1'
+  target 'CarCare DevTests' do
+#     pod 'RxTests',    '~> 2.3.1'
+#     pod 'RxBlocking', '~> 2.3.1'
   end
 end
 

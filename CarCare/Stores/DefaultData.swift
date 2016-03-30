@@ -7,12 +7,15 @@
 //
 
 import RealmSwift
-import RxSwift
-import RxRealm
 
-/// Add default data
-struct DefaultData {
-  static func initialize() {
+/// Add default dataDefaultData
+class DefaultData {
+  let realm: Realm = DBService.shareService.realm
+  
+  /**
+   创建```Fuel```的初始数据
+   */
+  func createFuelData() {
     addFuel("#93", type: .Petrol)
     addFuel("#97", type: .Petrol)
     addFuel("#98", type: .Petrol)
@@ -26,12 +29,21 @@ struct DefaultData {
   ///  - parameter name: Fuel name
   ///  - parameter type: Fuel type
   ///
-  ///  - returns: Added fuel data
-  static func addFuel(name: String, type: FuelType) -> Fuel {
-    let fuel = Fuel()
-    fuel.name = name
-    fuel.type = type.rawValue
-    Realm.rx_create(fuel, value: fuel)
-    return fuel
+  ///  - returns: Whether create operation success
+  private func addFuel(name: String, type: FuelType) -> Bool {
+    let fuelinDB = realm.objectForPrimaryKey(Fuel.self, key: name)
+    if fuelinDB == nil {
+      let fuel = Fuel()
+      fuel.name = name
+      fuel.type = type.rawValue
+      try! realm.write {
+        realm.add(fuel)
+      }
+      return true
+    }
+    else {
+      print("Fuel already exist")
+      return false
+    }
   }
 }

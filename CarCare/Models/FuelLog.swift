@@ -24,7 +24,7 @@ class Fuel: Object {
 
 class FuelPrice: Object {
   dynamic var id = NSUUID().UUIDString
-  dynamic var fuel = Fuel()
+  dynamic var fuel: Fuel? = nil
   dynamic var price: Float = 0.0
   dynamic var date = NSDate()
   
@@ -40,8 +40,8 @@ class FuelPrice: Object {
 class FuelLog: Object {
   dynamic var id = NSUUID().UUIDString
   dynamic var date = NSDate()
-  dynamic var fuel = Fuel()
-  dynamic var price = FuelPrice()
+  dynamic var fuel: Fuel? = nil
+  dynamic var price: FuelPrice? = nil
   dynamic var distance = 0
   dynamic var fuelCapacity: Float = 0.0
   dynamic var totalPrice: Float = 0.0

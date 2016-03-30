@@ -20,27 +20,67 @@
 		01753E5F1CAA832C002DFF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC81CA911E5005CB43D /* Assets.xcassets */; };
 		01753E601CAA832C002DFF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC51CA911E5005CB43D /* Main.storyboard */; };
 		0182DDB01CAB6F4400070F25 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDAF1CAB6F4400070F25 /* DefaultData.swift */; };
+		0182DDBC1CABA33700070F25 /* CarCare_DevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDBB1CABA33700070F25 /* CarCare_DevTests.swift */; };
+		0182DDC51CABAC6000070F25 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC31CABAC6000070F25 /* Realm.framework */; };
+		0182DDC61CABAC6000070F25 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC31CABAC6000070F25 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0182DDC71CABAC6000070F25 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC41CABAC6000070F25 /* RealmSwift.framework */; };
+		0182DDC81CABAC6000070F25 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC41CABAC6000070F25 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0182DDCC1CABAC6B00070F25 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDCA1CABAC6B00070F25 /* Realm.framework */; };
+		0182DDCD1CABAC6B00070F25 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDCA1CABAC6B00070F25 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0182DDCE1CABAC6B00070F25 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDCB1CABAC6B00070F25 /* RealmSwift.framework */; };
+		0182DDCF1CABAC6B00070F25 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDCB1CABAC6B00070F25 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0182DDD31CABC57300070F25 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDAF1CAB6F4400070F25 /* DefaultData.swift */; };
+		0182DDD41CABC89100070F25 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC31CABAC6000070F25 /* Realm.framework */; };
+		0182DDD51CABC89400070F25 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC41CABAC6000070F25 /* RealmSwift.framework */; };
+		0182DDD71CABD4E300070F25 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDD61CABD4E300070F25 /* DBHelper.swift */; };
+		0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDD61CABD4E300070F25 /* DBHelper.swift */; };
 		0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDBF1CA911E5005CB43D /* AppDelegate.swift */; };
 		0184BDC21CA911E5005CB43D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC11CA911E5005CB43D /* FirstViewController.swift */; };
 		0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC31CA911E5005CB43D /* SecondViewController.swift */; };
 		0184BDC71CA911E5005CB43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC51CA911E5005CB43D /* Main.storyboard */; };
 		0184BDC91CA911E5005CB43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC81CA911E5005CB43D /* Assets.xcassets */; };
 		0184BDCC1CA911E5005CB43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDCA1CA911E5005CB43D /* LaunchScreen.storyboard */; };
-		0184BDD71CA911E5005CB43D /* CarCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDD61CA911E5005CB43D /* CarCareTests.swift */; };
-		0230690FCDEFD61F73430E57 /* Pods_CarCare_CarCareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6505718EE658C06A91B195B /* Pods_CarCare_CarCareTests.framework */; };
+		A219F7D8FB945CDB726485DE /* Pods_CarCare_CarCare_DevTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4016D72E05B7EDDB2F4973AF /* Pods_CarCare_CarCare_DevTests.framework */; };
 		CD37F01A671B7D68D7FBBAE0 /* Pods_CarCare_CarCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA140DF72278F54EF4B7B5AA /* Pods_CarCare_CarCare.framework */; };
 		D2BCADA354E6D7CC6849E5F0 /* Pods_CarCare_CarCare_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C1BB6B4FAA4DB20B029886 /* Pods_CarCare_CarCare_Dev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0184BDD31CA911E5005CB43D /* PBXContainerItemProxy */ = {
+		0182DDBE1CABA33700070F25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0184BDB41CA911E5005CB43D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0184BDBB1CA911E5005CB43D;
-			remoteInfo = CarCare;
+			remoteGlobalIDString = 01753E531CAA832C002DFF41;
+			remoteInfo = "CarCare Dev";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0182DDC91CABAC6000070F25 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0182DDC81CABAC6000070F25 /* RealmSwift.framework in Embed Frameworks */,
+				0182DDC61CABAC6000070F25 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0182DDD01CABAC6C00070F25 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0182DDCF1CABAC6B00070F25 /* RealmSwift.framework in Embed Frameworks */,
+				0182DDCD1CABAC6B00070F25 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLog.swift; sourceTree = "<group>"; };
@@ -49,6 +89,14 @@
 		01753E641CAA832C002DFF41 /* CarCare Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarCare Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01753E651CAA832C002DFF41 /* CarCare Dev Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CarCare Dev Info.plist"; path = "/Users/Nick/Workspace/CarCare/CarCare Dev Info.plist"; sourceTree = "<absolute>"; };
 		0182DDAF1CAB6F4400070F25 /* DefaultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
+		0182DDB91CABA33600070F25 /* CarCare DevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarCare DevTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0182DDBB1CABA33700070F25 /* CarCare_DevTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCare_DevTests.swift; sourceTree = "<group>"; };
+		0182DDBD1CABA33700070F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0182DDC31CABAC6000070F25 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		0182DDC41CABAC6000070F25 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		0182DDCA1CABAC6B00070F25 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		0182DDCB1CABAC6B00070F25 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		0182DDD61CABD4E300070F25 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		0184BDBC1CA911E5005CB43D /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184BDBF1CA911E5005CB43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0184BDC11CA911E5005CB43D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,17 +105,17 @@
 		0184BDC81CA911E5005CB43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0184BDCB1CA911E5005CB43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0184BDCD1CA911E5005CB43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0184BDD21CA911E5005CB43D /* CarCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0184BDD61CA911E5005CB43D /* CarCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCareTests.swift; sourceTree = "<group>"; };
-		0184BDD81CA911E5005CB43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1EBCA021E1570D11F7778E /* Pods-CarCare-CarCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCareTests/Pods-CarCare-CarCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		3451FDF36B9F91646CDD6B1C /* Pods-CarCare-CarCare DevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare DevTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare DevTests/Pods-CarCare-CarCare DevTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DD783E35B565542B92B19C4 /* Pods-CarCare-CarCare Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare Dev/Pods-CarCare-CarCare Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		4016D72E05B7EDDB2F4973AF /* Pods_CarCare_CarCare_DevTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarCare_CarCare_DevTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69941C0A1604F388C911BE9A /* Pods-CarCare-CarCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCareTests/Pods-CarCare-CarCareTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A94FB3EF5D00AF69FC3A8A87 /* Pods-CarCare-CarCare Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare Dev/Pods-CarCare-CarCare Dev.release.xcconfig"; sourceTree = "<group>"; };
 		AA140DF72278F54EF4B7B5AA /* Pods_CarCare_CarCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarCare_CarCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21C894E3FAAA8B8668D6A26 /* Pods-CarCare-CarCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare/Pods-CarCare-CarCare.debug.xcconfig"; sourceTree = "<group>"; };
 		D6505718EE658C06A91B195B /* Pods_CarCare_CarCareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarCare_CarCareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C1BB6B4FAA4DB20B029886 /* Pods_CarCare_CarCare_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarCare_CarCare_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA991AC5380F7B53C9DC5DAA /* Pods-CarCare-CarCare DevTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare DevTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare DevTests/Pods-CarCare-CarCare DevTests.release.xcconfig"; sourceTree = "<group>"; };
 		F3234362C61591AE42A44DA1 /* Pods-CarCare-CarCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare/Pods-CarCare-CarCare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +124,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0182DDC51CABAC6000070F25 /* Realm.framework in Frameworks */,
 				D2BCADA354E6D7CC6849E5F0 /* Pods_CarCare_CarCare_Dev.framework in Frameworks */,
+				0182DDC71CABAC6000070F25 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0182DDB61CABA33600070F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219F7D8FB945CDB726485DE /* Pods_CarCare_CarCare_DevTests.framework in Frameworks */,
+				0182DDD41CABC89100070F25 /* Realm.framework in Frameworks */,
+				0182DDD51CABC89400070F25 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,15 +144,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0182DDCC1CABAC6B00070F25 /* Realm.framework in Frameworks */,
 				CD37F01A671B7D68D7FBBAE0 /* Pods_CarCare_CarCare.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0184BDCF1CA911E5005CB43D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0230690FCDEFD61F73430E57 /* Pods_CarCare_CarCareTests.framework in Frameworks */,
+				0182DDCE1CABAC6B00070F25 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,15 +189,29 @@
 			isa = PBXGroup;
 			children = (
 				01753E4F1CAA778D002DFF41 /* RxRealm.swift */,
+				0182DDD61CABD4E300070F25 /* DBHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0182DDBA1CABA33700070F25 /* CarCare DevTests */ = {
+			isa = PBXGroup;
+			children = (
+				0182DDBB1CABA33700070F25 /* CarCare_DevTests.swift */,
+				0182DDBD1CABA33700070F25 /* Info.plist */,
+			);
+			path = "CarCare DevTests";
 			sourceTree = "<group>";
 		};
 		0184BDB31CA911E5005CB43D = {
 			isa = PBXGroup;
 			children = (
+				0182DDCA1CABAC6B00070F25 /* Realm.framework */,
+				0182DDCB1CABAC6B00070F25 /* RealmSwift.framework */,
+				0182DDC31CABAC6000070F25 /* Realm.framework */,
+				0182DDC41CABAC6000070F25 /* RealmSwift.framework */,
 				0184BDBE1CA911E5005CB43D /* CarCare */,
-				0184BDD51CA911E5005CB43D /* CarCareTests */,
+				0182DDBA1CABA33700070F25 /* CarCare DevTests */,
 				0184BDBD1CA911E5005CB43D /* Products */,
 				CF8AB8AD7E400ED9443AFCC7 /* Pods */,
 				3A079ACC8CFB0C166412EF5C /* Frameworks */,
@@ -154,8 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				0184BDBC1CA911E5005CB43D /* CarCare.app */,
-				0184BDD21CA911E5005CB43D /* CarCareTests.xctest */,
 				01753E641CAA832C002DFF41 /* CarCare Dev.app */,
+				0182DDB91CABA33600070F25 /* CarCare DevTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,21 +247,13 @@
 			path = CarCare;
 			sourceTree = "<group>";
 		};
-		0184BDD51CA911E5005CB43D /* CarCareTests */ = {
-			isa = PBXGroup;
-			children = (
-				0184BDD61CA911E5005CB43D /* CarCareTests.swift */,
-				0184BDD81CA911E5005CB43D /* Info.plist */,
-			);
-			path = CarCareTests;
-			sourceTree = "<group>";
-		};
 		3A079ACC8CFB0C166412EF5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				AA140DF72278F54EF4B7B5AA /* Pods_CarCare_CarCare.framework */,
 				E5C1BB6B4FAA4DB20B029886 /* Pods_CarCare_CarCare_Dev.framework */,
 				D6505718EE658C06A91B195B /* Pods_CarCare_CarCareTests.framework */,
+				4016D72E05B7EDDB2F4973AF /* Pods_CarCare_CarCare_DevTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +267,8 @@
 				A94FB3EF5D00AF69FC3A8A87 /* Pods-CarCare-CarCare Dev.release.xcconfig */,
 				69941C0A1604F388C911BE9A /* Pods-CarCare-CarCareTests.debug.xcconfig */,
 				0B1EBCA021E1570D11F7778E /* Pods-CarCare-CarCareTests.release.xcconfig */,
+				3451FDF36B9F91646CDD6B1C /* Pods-CarCare-CarCare DevTests.debug.xcconfig */,
+				EA991AC5380F7B53C9DC5DAA /* Pods-CarCare-CarCare DevTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -225,6 +287,8 @@
 				01753E5D1CAA832C002DFF41 /* Resources */,
 				1CD73B8E673B3F5938DC4ABC /* 📦 Embed Pods Frameworks */,
 				5A9E69B855A3A19DCEA7A114 /* 📦 Copy Pods Resources */,
+				0182DDC91CABAC6000070F25 /* Embed Frameworks */,
+				0182DDD21CABACE100070F25 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -234,6 +298,27 @@
 			productName = CarCare;
 			productReference = 01753E641CAA832C002DFF41 /* CarCare Dev.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0182DDB81CABA33600070F25 /* CarCare DevTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0182DDC01CABA33700070F25 /* Build configuration list for PBXNativeTarget "CarCare DevTests" */;
+			buildPhases = (
+				93D21C07349E4A599FFCA46C /* 📦 Check Pods Manifest.lock */,
+				0182DDB51CABA33600070F25 /* Sources */,
+				0182DDB61CABA33600070F25 /* Frameworks */,
+				0182DDB71CABA33600070F25 /* Resources */,
+				E6F433F71B8BD66465DA9CF6 /* 📦 Embed Pods Frameworks */,
+				7B35470863A830AD374E03A8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0182DDBF1CABA33700070F25 /* PBXTargetDependency */,
+			);
+			name = "CarCare DevTests";
+			productName = "CarCare DevTests";
+			productReference = 0182DDB91CABA33600070F25 /* CarCare DevTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0184BDBB1CA911E5005CB43D /* CarCare */ = {
 			isa = PBXNativeTarget;
@@ -246,6 +331,8 @@
 				0184BDBA1CA911E5005CB43D /* Resources */,
 				61EAD0B8691E7E130B2D0251 /* 📦 Embed Pods Frameworks */,
 				D9715698383E1B8651EDFFF9 /* 📦 Copy Pods Resources */,
+				0182DDD01CABAC6C00070F25 /* Embed Frameworks */,
+				0182DDD11CABAC8300070F25 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -256,43 +343,22 @@
 			productReference = 0184BDBC1CA911E5005CB43D /* CarCare.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0184BDD11CA911E5005CB43D /* CarCareTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0184BDDE1CA911E5005CB43D /* Build configuration list for PBXNativeTarget "CarCareTests" */;
-			buildPhases = (
-				31F1F65828433129FBBCE4C7 /* 📦 Check Pods Manifest.lock */,
-				0184BDCE1CA911E5005CB43D /* Sources */,
-				0184BDCF1CA911E5005CB43D /* Frameworks */,
-				0184BDD01CA911E5005CB43D /* Resources */,
-				F3B8003D3727F7B64361C2F8 /* 📦 Embed Pods Frameworks */,
-				D775BB80828C8F2A3B38BE47 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0184BDD41CA911E5005CB43D /* PBXTargetDependency */,
-			);
-			name = CarCareTests;
-			productName = CarCareTests;
-			productReference = 0184BDD21CA911E5005CB43D /* CarCareTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0184BDB41CA911E5005CB43D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Nick Liu";
 				TargetAttributes = {
+					0182DDB81CABA33600070F25 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01753E531CAA832C002DFF41;
+					};
 					0184BDBB1CA911E5005CB43D = {
 						CreatedOnToolsVersion = 7.2;
-					};
-					0184BDD11CA911E5005CB43D = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 0184BDBB1CA911E5005CB43D;
 					};
 				};
 			};
@@ -311,7 +377,7 @@
 			targets = (
 				0184BDBB1CA911E5005CB43D /* CarCare */,
 				01753E531CAA832C002DFF41 /* CarCare Dev */,
-				0184BDD11CA911E5005CB43D /* CarCareTests */,
+				0182DDB81CABA33600070F25 /* CarCare DevTests */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +393,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0182DDB71CABA33600070F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0184BDBA1CA911E5005CB43D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,13 +407,6 @@
 				0184BDCC1CA911E5005CB43D /* LaunchScreen.storyboard in Resources */,
 				0184BDC91CA911E5005CB43D /* Assets.xcassets in Resources */,
 				0184BDC71CA911E5005CB43D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0184BDD01CA911E5005CB43D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +425,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		0182DDD11CABAC8300070F25 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		0182DDD21CABACE100070F25 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 		0184BDE11CA91A61005CB43D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -386,21 +482,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarCare-CarCare Dev/Pods-CarCare-CarCare Dev-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		31F1F65828433129FBBCE4C7 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5A9E69B855A3A19DCEA7A114 /* 📦 Copy Pods Resources */ = {
@@ -433,7 +514,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarCare-CarCare/Pods-CarCare-CarCare-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98BB16EAD6BB52BCE13E03C3 /* 📦 Check Pods Manifest.lock */ = {
+		7B35470863A830AD374E03A8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarCare-CarCare DevTests/Pods-CarCare-CarCare DevTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D21C07349E4A599FFCA46C /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,19 +544,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D775BB80828C8F2A3B38BE47 /* 📦 Copy Pods Resources */ = {
+		98BB16EAD6BB52BCE13E03C3 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarCare-CarCareTests/Pods-CarCare-CarCareTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D9715698383E1B8651EDFFF9 /* 📦 Copy Pods Resources */ = {
@@ -493,7 +589,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F3B8003D3727F7B64361C2F8 /* 📦 Embed Pods Frameworks */ = {
+		E6F433F71B8BD66465DA9CF6 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,7 +601,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarCare-CarCareTests/Pods-CarCare-CarCareTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarCare-CarCare DevTests/Pods-CarCare-CarCare DevTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -518,9 +614,19 @@
 				01753E561CAA832C002DFF41 /* SecondViewController.swift in Sources */,
 				01753E571CAA832C002DFF41 /* AppDelegate.swift in Sources */,
 				01753E581CAA832C002DFF41 /* FuelLog.swift in Sources */,
+				0182DDD31CABC57300070F25 /* DefaultData.swift in Sources */,
 				01753E591CAA832C002DFF41 /* FirstViewController.swift in Sources */,
 				01753E5A1CAA832C002DFF41 /* RxRealm.swift in Sources */,
 				01753E5B1CAA832C002DFF41 /* R.generated.swift in Sources */,
+				0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0182DDB51CABA33600070F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0182DDBC1CABA33700070F25 /* CarCare_DevTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,24 +641,17 @@
 				0184BDC21CA911E5005CB43D /* FirstViewController.swift in Sources */,
 				01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */,
 				01753E521CAA780A002DFF41 /* R.generated.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0184BDCE1CA911E5005CB43D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0184BDD71CA911E5005CB43D /* CarCareTests.swift in Sources */,
+				0182DDD71CABD4E300070F25 /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0184BDD41CA911E5005CB43D /* PBXTargetDependency */ = {
+		0182DDBF1CABA33700070F25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0184BDBB1CA911E5005CB43D /* CarCare */;
-			targetProxy = 0184BDD31CA911E5005CB43D /* PBXContainerItemProxy */;
+			target = 01753E531CAA832C002DFF41 /* CarCare Dev */;
+			targetProxy = 0182DDBE1CABA33700070F25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -581,6 +680,10 @@
 			baseConfigurationReference = 3DD783E35B565542B92B19C4 /* Pods-CarCare-CarCare Dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -599,12 +702,54 @@
 			baseConfigurationReference = A94FB3EF5D00AF69FC3A8A87 /* Pods-CarCare-CarCare Dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = "DELELOPMENT=1";
 				INFOPLIST_FILE = "CarCare Dev Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nick3.CarCare-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0182DDC11CABA33700070F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3451FDF36B9F91646CDD6B1C /* Pods-CarCare-CarCare DevTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "CarCare DevTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick3.CarCare-DevTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare Dev.app/CarCare Dev";
+			};
+			name = Debug;
+		};
+		0182DDC21CABA33700070F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA991AC5380F7B53C9DC5DAA /* Pods-CarCare-CarCare DevTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "CarCare DevTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick3.CarCare-DevTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare Dev.app/CarCare Dev";
 			};
 			name = Release;
 		};
@@ -694,6 +839,10 @@
 			baseConfigurationReference = B21C894E3FAAA8B8668D6A26 /* Pods-CarCare-CarCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -711,37 +860,15 @@
 			baseConfigurationReference = F3234362C61591AE42A44DA1 /* Pods-CarCare-CarCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = "DELELOPMENT=0";
 				INFOPLIST_FILE = CarCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nick3.CarCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		0184BDDF1CA911E5005CB43D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69941C0A1604F388C911BE9A /* Pods-CarCare-CarCareTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CarCareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick3.CarCareTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare.app/CarCare";
-			};
-			name = Debug;
-		};
-		0184BDE01CA911E5005CB43D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B1EBCA021E1570D11F7778E /* Pods-CarCare-CarCareTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CarCareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nick3.CarCareTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarCare.app/CarCare";
 			};
 			name = Release;
 		};
@@ -753,6 +880,15 @@
 			buildConfigurations = (
 				01753E621CAA832C002DFF41 /* Debug */,
 				01753E631CAA832C002DFF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0182DDC01CABA33700070F25 /* Build configuration list for PBXNativeTarget "CarCare DevTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0182DDC11CABA33700070F25 /* Debug */,
+				0182DDC21CABA33700070F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -771,15 +907,6 @@
 			buildConfigurations = (
 				0184BDDC1CA911E5005CB43D /* Debug */,
 				0184BDDD1CA911E5005CB43D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0184BDDE1CA911E5005CB43D /* Build configuration list for PBXNativeTarget "CarCareTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0184BDDF1CA911E5005CB43D /* Debug */,
-				0184BDE01CA911E5005CB43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

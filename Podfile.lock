@@ -10,18 +10,9 @@ PODS:
   - R.swift (2.1.0):
     - R.swift.Library (~> 2.0.0)
   - R.swift.Library (2.0.0)
-  - Realm (0.98.6):
-    - Realm/Headers (= 0.98.6)
-  - Realm/Headers (0.98.6)
-  - RealmSwift (0.98.6):
-    - Realm (= 0.98.6)
-  - RxBlocking (2.3.1):
-    - RxSwift (~> 2.3.1)
   - RxCocoa (2.3.1):
     - RxSwift (~> 2.3.1)
   - RxSwift (2.3.1)
-  - RxTests (2.3.1):
-    - RxSwift (~> 2.3.1)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift
@@ -30,11 +21,8 @@ DEPENDENCIES:
   - NSObject+Rx
   - ObjectMapper (~> 1.2.0)
   - R.swift (~> 2.1.0)
-  - RealmSwift
-  - RxBlocking (~> 2.3.1)
   - RxCocoa (~> 2.3.1)
   - RxSwift (~> 2.3.1)
-  - RxTests (~> 2.3.1)
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
@@ -44,13 +32,9 @@ SPEC CHECKSUMS:
   ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
   R.swift: efff131531b5cf142e28fd94957806ff71ccbcf2
   R.swift.Library: 9f4b2d12040daa1ffe336d8f7e1574f73721fd01
-  Realm: 44803f35418c5d89b27825a564247fcd190de37e
-  RealmSwift: c7239c52c83f8c43525a5269ba7be1694da33afc
-  RxBlocking: 84fd81865a641a3843b33bae7b8315e78ddbd383
   RxCocoa: a2baaf3462b989559a51dce59d78fbebb8fe0afa
   RxSwift: 829b2843e9eddc77a02cb3f5117f0d55f8f646f1
-  RxTests: 86e059f7257a92be9baf124975c71297555daf53
 
-PODFILE CHECKSUM: 6cfc2886d4371f05e3ca7e834ef7aae323ba943c
+PODFILE CHECKSUM: 256b693572bba34b85f41dcd670ffeef4343dd64
 
 COCOAPODS: 1.0.0.beta.5
