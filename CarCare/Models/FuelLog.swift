@@ -16,14 +16,29 @@ enum FuelType: Int8 {
 class Fuel: Object {
   dynamic var name = "#93"
   dynamic var type = FuelType.Petrol.rawValue
+  
+  override static func primaryKey() -> String {
+    return "name"
+  }
 }
 
 class FuelPrice: Object {
+  dynamic var id = NSUUID().UUIDString
   dynamic var fuel = Fuel()
   dynamic var price: Float = 0.0
+  dynamic var date = NSDate()
+  
+  override static func primaryKey() -> String {
+    return "id"
+  }
+  
+  override static func indexedProperties() -> [String] {
+    return ["id"]
+  }
 }
 
 class FuelLog: Object {
+  dynamic var id = NSUUID().UUIDString
   dynamic var date = NSDate()
   dynamic var fuel = Fuel()
   dynamic var price = FuelPrice()
@@ -31,4 +46,8 @@ class FuelLog: Object {
   dynamic var fuelCapacity: Float = 0.0
   dynamic var totalPrice: Float = 0.0
   dynamic var isFull = false
+  
+  override static func primaryKey() -> String {
+    return "id"
+  }
 }

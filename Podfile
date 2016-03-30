@@ -6,13 +6,13 @@ use_frameworks!
 
 abstract_target 'CarCare' do
   pod 'ChameleonFramework/Swift'
-  pod 'Eureka', '~> 1.4.0'
+  pod 'Eureka', '~> 1.5.0'
   pod 'Format', '~> 0.2'
-  pod 'R.swift', '~>1.4.2'
-  pod 'RxSwift',    '2.3.0'
-  pod 'RxCocoa',    '2.3.0'
+  pod 'R.swift', '~> 2.1.0'
+  pod 'RxSwift',    '~> 2.3.1'
+  pod 'RxCocoa',    '~> 2.3.1'
   pod 'NSObject+Rx'
-  pod 'ObjectMapper', '~> 1.1.5'
+  pod 'ObjectMapper', '~> 1.2.0'
   pod 'RealmSwift'
   
   target 'CarCare' do
@@ -22,8 +22,8 @@ abstract_target 'CarCare' do
   end
   
   target 'CarCareTests' do
-    pod 'RxTests',    '2.3.0'
-    pod 'RxBlocking', '2.3.0'
+    pod 'RxTests',    '~> 2.3.1'
+    pod 'RxBlocking', '~> 2.3.1'
   end
 end
 

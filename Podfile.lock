@@ -2,55 +2,55 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - Eureka (1.4.1)
+  - Eureka (1.5.0)
   - Format (0.2.0)
   - NSObject+Rx (1.2.1):
     - RxSwift (~> 2.1)
-  - ObjectMapper (1.1.5)
-  - R.swift (1.4.2):
-    - R.swift.Library (~> 1.2.2)
-  - R.swift.Library (1.2.2)
+  - ObjectMapper (1.2.0)
+  - R.swift (2.1.0):
+    - R.swift.Library (~> 2.0.0)
+  - R.swift.Library (2.0.0)
   - Realm (0.98.6):
     - Realm/Headers (= 0.98.6)
   - Realm/Headers (0.98.6)
   - RealmSwift (0.98.6):
     - Realm (= 0.98.6)
-  - RxBlocking (2.3.0):
-    - RxSwift (~> 2.3)
-  - RxCocoa (2.3.0):
-    - RxSwift (~> 2.3)
-  - RxSwift (2.3.0)
-  - RxTests (2.3.0):
-    - RxSwift (~> 2.3)
+  - RxBlocking (2.3.1):
+    - RxSwift (~> 2.3.1)
+  - RxCocoa (2.3.1):
+    - RxSwift (~> 2.3.1)
+  - RxSwift (2.3.1)
+  - RxTests (2.3.1):
+    - RxSwift (~> 2.3.1)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift
-  - Eureka (~> 1.4.0)
+  - Eureka (~> 1.5.0)
   - Format (~> 0.2)
   - NSObject+Rx
-  - ObjectMapper (~> 1.1.5)
-  - R.swift (~> 1.4.2)
+  - ObjectMapper (~> 1.2.0)
+  - R.swift (~> 2.1.0)
   - RealmSwift
-  - RxBlocking (= 2.3.0)
-  - RxCocoa (= 2.3.0)
-  - RxSwift (= 2.3.0)
-  - RxTests (= 2.3.0)
+  - RxBlocking (~> 2.3.1)
+  - RxCocoa (~> 2.3.1)
+  - RxSwift (~> 2.3.1)
+  - RxTests (~> 2.3.1)
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  Eureka: 2f1921d3162491921d2fef3b516bc4ef93a05122
+  Eureka: 2fb37bb50569c62ee3284689d5b7aca694b040e0
   Format: f7dfbca0a5f2890f0001192692da8558b9a6f9d7
   NSObject+Rx: 5d032a7f161602dec6b82dcf12731e91ce15b8da
-  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
-  R.swift: 031a557cdeeeb9e953265e170a99a426c3a1c5c2
-  R.swift.Library: 7c2283d21cad9d441b236bf6a9f6fa02625704de
+  ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
+  R.swift: efff131531b5cf142e28fd94957806ff71ccbcf2
+  R.swift.Library: 9f4b2d12040daa1ffe336d8f7e1574f73721fd01
   Realm: 44803f35418c5d89b27825a564247fcd190de37e
   RealmSwift: c7239c52c83f8c43525a5269ba7be1694da33afc
-  RxBlocking: 4616f93183a76aeee681262377e5c4aca0515b06
-  RxCocoa: cde4e993f496d2577bc3ba8b7dc7bf55a4ed809a
-  RxSwift: 0df59cc5edf28a31dbf83b049220b4b8e76b07c8
-  RxTests: 321381af540a52281f90f89c066e25c8f42d18fa
+  RxBlocking: 84fd81865a641a3843b33bae7b8315e78ddbd383
+  RxCocoa: a2baaf3462b989559a51dce59d78fbebb8fe0afa
+  RxSwift: 829b2843e9eddc77a02cb3f5117f0d55f8f646f1
+  RxTests: 86e059f7257a92be9baf124975c71297555daf53
 
-PODFILE CHECKSUM: 14dc0567e23ce1f4bcc2cecf925c90a9f2b59833
+PODFILE CHECKSUM: 6cfc2886d4371f05e3ca7e834ef7aae323ba943c
 
 COCOAPODS: 1.0.0.beta.5
