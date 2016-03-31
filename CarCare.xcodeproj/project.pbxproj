@@ -13,7 +13,6 @@
 		01753E561CAA832C002DFF41 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC31CA911E5005CB43D /* SecondViewController.swift */; };
 		01753E571CAA832C002DFF41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDBF1CA911E5005CB43D /* AppDelegate.swift */; };
 		01753E581CAA832C002DFF41 /* FuelLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */; };
-		01753E591CAA832C002DFF41 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC11CA911E5005CB43D /* FirstViewController.swift */; };
 		01753E5A1CAA832C002DFF41 /* RxRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4F1CAA778D002DFF41 /* RxRealm.swift */; };
 		01753E5B1CAA832C002DFF41 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E511CAA780A002DFF41 /* R.generated.swift */; };
 		01753E5E1CAA832C002DFF41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDCA1CA911E5005CB43D /* LaunchScreen.storyboard */; };
@@ -34,8 +33,9 @@
 		0182DDD51CABC89400070F25 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0182DDC41CABAC6000070F25 /* RealmSwift.framework */; };
 		0182DDD71CABD4E300070F25 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDD61CABD4E300070F25 /* DBHelper.swift */; };
 		0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDD61CABD4E300070F25 /* DBHelper.swift */; };
+		0182DDE81CACC6B900070F25 /* FuelLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDE71CACC6B900070F25 /* FuelLogCell.swift */; };
+		0182DDE91CACC6B900070F25 /* FuelLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDE71CACC6B900070F25 /* FuelLogCell.swift */; };
 		0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDBF1CA911E5005CB43D /* AppDelegate.swift */; };
-		0184BDC21CA911E5005CB43D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC11CA911E5005CB43D /* FirstViewController.swift */; };
 		0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC31CA911E5005CB43D /* SecondViewController.swift */; };
 		0184BDC71CA911E5005CB43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC51CA911E5005CB43D /* Main.storyboard */; };
 		0184BDC91CA911E5005CB43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC81CA911E5005CB43D /* Assets.xcassets */; };
@@ -97,9 +97,9 @@
 		0182DDCA1CABAC6B00070F25 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		0182DDCB1CABAC6B00070F25 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		0182DDD61CABD4E300070F25 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		0182DDE71CACC6B900070F25 /* FuelLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogCell.swift; sourceTree = "<group>"; };
 		0184BDBC1CA911E5005CB43D /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184BDBF1CA911E5005CB43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0184BDC11CA911E5005CB43D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
 		0184BDC31CA911E5005CB43D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		0184BDC61CA911E5005CB43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0184BDC81CA911E5005CB43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +164,7 @@
 		01753E491CAA6669002DFF41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0182DDE71CACC6B900070F25 /* FuelLogCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,7 +172,6 @@
 		01753E4A1CAA666F002DFF41 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				0184BDC11CA911E5005CB43D /* FirstViewController.swift */,
 				0184BDC31CA911E5005CB43D /* SecondViewController.swift */,
 			);
 			path = ViewModels;
@@ -613,9 +613,9 @@
 			files = (
 				01753E561CAA832C002DFF41 /* SecondViewController.swift in Sources */,
 				01753E571CAA832C002DFF41 /* AppDelegate.swift in Sources */,
+				0182DDE91CACC6B900070F25 /* FuelLogCell.swift in Sources */,
 				01753E581CAA832C002DFF41 /* FuelLog.swift in Sources */,
 				0182DDD31CABC57300070F25 /* DefaultData.swift in Sources */,
-				01753E591CAA832C002DFF41 /* FirstViewController.swift in Sources */,
 				01753E5A1CAA832C002DFF41 /* RxRealm.swift in Sources */,
 				01753E5B1CAA832C002DFF41 /* R.generated.swift in Sources */,
 				0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */,
@@ -636,9 +636,9 @@
 			files = (
 				0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */,
 				0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */,
+				0182DDE81CACC6B900070F25 /* FuelLogCell.swift in Sources */,
 				01753E4E1CAA6CE6002DFF41 /* FuelLog.swift in Sources */,
 				0182DDB01CAB6F4400070F25 /* DefaultData.swift in Sources */,
-				0184BDC21CA911E5005CB43D /* FirstViewController.swift in Sources */,
 				01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */,
 				01753E521CAA780A002DFF41 /* R.generated.swift in Sources */,
 				0182DDD71CABD4E300070F25 /* DBHelper.swift in Sources */,
