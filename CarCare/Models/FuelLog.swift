@@ -13,12 +13,21 @@ enum FuelType: Int8 {
   case Petrol = 1, Diesel, Electric, Hydrogen
 }
 
-class Fuel: Object {
+class Fuel: Object, Equatable {
   dynamic var name = "#93"
   dynamic var type = FuelType.Petrol.rawValue
   
   override static func primaryKey() -> String {
     return "name"
+  }
+}
+
+func ==(lhs: Fuel, rhs: Fuel) -> Bool {
+  if lhs.name == rhs.name && lhs.type == rhs.type {
+    return true
+  }
+  else {
+    return false
   }
 }
 

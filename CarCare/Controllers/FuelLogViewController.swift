@@ -21,9 +21,9 @@ class FuelLogViewController: UITableViewController {
 
     // Uncomment the following line to preserve selection between presentations
     self.clearsSelectionOnViewWillAppear = false
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    
+    let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(showNewFuelLogViewController))
+    self.navigationItem.rightBarButtonItem = addButton
     
     // 刷新组件初始化
     gearRefreshControl = GearRefreshControl(frame: view.bounds)
@@ -56,6 +56,12 @@ class FuelLogViewController: UITableViewController {
   
   func refresh() {
     page.value = 0
+  }
+  
+  func showNewFuelLogViewController() {
+    let newFuelLogViewController = FuelLogEditViewController()
+    newFuelLogViewController.title = "添加加油记录"
+    navigationController?.pushViewController(newFuelLogViewController, animated: true)
   }
 
   override func didReceiveMemoryWarning() {

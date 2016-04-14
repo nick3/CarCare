@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "FuelLogEditViewController.(viewDidLoad() -&gt; ()).(closure #4).(closure #1):FuelLogEditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "v">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FuelLogEditViewController.(viewDidLoad() -&gt; ()).(closure #4):FuelLogEditViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -12,7 +12,7 @@ import RealmSwift
 import GCDKit
 
 class FuelLogsViewModel {
-  var fuelLogs = BehaviorSubject(value: [FuelLogCellViewModel]())
+//  var fuelLogs = BehaviorSubject(value: [FuelLogCellViewModel]())
   let pageLimit = 50
   
   func fetchFuelLogs(fromPage page: Int) -> Observable<[FuelLogCellViewModel]> {
@@ -33,8 +33,8 @@ class FuelLogsViewModel {
         }
       }
       .notify(.Main) {
-        observer.on(Event.Next(fuelLogsArray))
-        observer.on(Event.Completed)
+        observer.on(.Next(fuelLogsArray))
+        observer.on(.Completed)
       }
       return NopDisposable.instance
     }
