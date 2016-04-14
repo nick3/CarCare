@@ -46,4 +46,9 @@ class DefaultData {
       return false
     }
   }
+  
+  static func create() {
+    let dd = DefaultData()
+    dd.createFuelData()
+  }
 }

@@ -9,10 +9,12 @@ abstract_target 'CarCare' do
   pod 'Eureka', '~> 1.5.0'
   pod 'Format', '~> 0.2'
   pod 'R.swift', '~> 2.1.0'
-  pod 'RxSwift',    '~> 2.3.1'
-  pod 'RxCocoa',    '~> 2.3.1'
+  pod 'RxSwift',    '~> 2.4'
+  pod 'RxCocoa',    '~> 2.4'
   pod 'NSObject+Rx'
   pod 'ObjectMapper', '~> 1.2.0'
+  pod 'GCDKit', '~> 1.2.2'
+  pod 'GearRefreshControl', '~> 0.3'
   
   target 'CarCare' do
   end

@@ -10,7 +10,6 @@
 		01753E4E1CAA6CE6002DFF41 /* FuelLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */; };
 		01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4F1CAA778D002DFF41 /* RxRealm.swift */; };
 		01753E521CAA780A002DFF41 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E511CAA780A002DFF41 /* R.generated.swift */; };
-		01753E561CAA832C002DFF41 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC31CA911E5005CB43D /* SecondViewController.swift */; };
 		01753E571CAA832C002DFF41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDBF1CA911E5005CB43D /* AppDelegate.swift */; };
 		01753E581CAA832C002DFF41 /* FuelLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4D1CAA6CE6002DFF41 /* FuelLog.swift */; };
 		01753E5A1CAA832C002DFF41 /* RxRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01753E4F1CAA778D002DFF41 /* RxRealm.swift */; };
@@ -35,13 +34,16 @@
 		0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDD61CABD4E300070F25 /* DBHelper.swift */; };
 		0182DDE81CACC6B900070F25 /* FuelLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDE71CACC6B900070F25 /* FuelLogCell.swift */; };
 		0182DDE91CACC6B900070F25 /* FuelLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DDE71CACC6B900070F25 /* FuelLogCell.swift */; };
-		0182DE1A1CAE755900070F25 /* FuelLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DE191CAE755900070F25 /* FuelLogViewModel.swift */; };
-		0182DE1B1CAE755900070F25 /* FuelLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DE191CAE755900070F25 /* FuelLogViewModel.swift */; };
+		0182DE1A1CAE755900070F25 /* FuelLogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DE191CAE755900070F25 /* FuelLogsViewModel.swift */; };
+		0182DE1B1CAE755900070F25 /* FuelLogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182DE191CAE755900070F25 /* FuelLogsViewModel.swift */; };
 		0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDBF1CA911E5005CB43D /* AppDelegate.swift */; };
-		0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184BDC31CA911E5005CB43D /* SecondViewController.swift */; };
 		0184BDC71CA911E5005CB43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC51CA911E5005CB43D /* Main.storyboard */; };
 		0184BDC91CA911E5005CB43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDC81CA911E5005CB43D /* Assets.xcassets */; };
 		0184BDCC1CA911E5005CB43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0184BDCA1CA911E5005CB43D /* LaunchScreen.storyboard */; };
+		01C7CE5A1CBF466400A5BFCA /* FuelLogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE591CBF466400A5BFCA /* FuelLogCellViewModel.swift */; };
+		01C7CE5B1CBF466400A5BFCA /* FuelLogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE591CBF466400A5BFCA /* FuelLogCellViewModel.swift */; };
+		01C7CE611CBF50A700A5BFCA /* FuelLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE601CBF50A700A5BFCA /* FuelLogViewController.swift */; };
+		01C7CE621CBF50A700A5BFCA /* FuelLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE601CBF50A700A5BFCA /* FuelLogViewController.swift */; };
 		A219F7D8FB945CDB726485DE /* Pods_CarCare_CarCare_DevTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4016D72E05B7EDDB2F4973AF /* Pods_CarCare_CarCare_DevTests.framework */; };
 		CD37F01A671B7D68D7FBBAE0 /* Pods_CarCare_CarCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA140DF72278F54EF4B7B5AA /* Pods_CarCare_CarCare.framework */; };
 		D2BCADA354E6D7CC6849E5F0 /* Pods_CarCare_CarCare_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C1BB6B4FAA4DB20B029886 /* Pods_CarCare_CarCare_Dev.framework */; };
@@ -100,14 +102,15 @@
 		0182DDCB1CABAC6B00070F25 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		0182DDD61CABD4E300070F25 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		0182DDE71CACC6B900070F25 /* FuelLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogCell.swift; sourceTree = "<group>"; };
-		0182DE191CAE755900070F25 /* FuelLogViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogViewModel.swift; sourceTree = "<group>"; };
+		0182DE191CAE755900070F25 /* FuelLogsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogsViewModel.swift; sourceTree = "<group>"; };
 		0184BDBC1CA911E5005CB43D /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184BDBF1CA911E5005CB43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0184BDC31CA911E5005CB43D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		0184BDC61CA911E5005CB43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0184BDC81CA911E5005CB43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0184BDCB1CA911E5005CB43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0184BDCD1CA911E5005CB43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C7CE591CBF466400A5BFCA /* FuelLogCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogCellViewModel.swift; sourceTree = "<group>"; };
+		01C7CE601CBF50A700A5BFCA /* FuelLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogViewController.swift; sourceTree = "<group>"; };
 		0B1EBCA021E1570D11F7778E /* Pods-CarCare-CarCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCareTests/Pods-CarCare-CarCareTests.release.xcconfig"; sourceTree = "<group>"; };
 		3451FDF36B9F91646CDD6B1C /* Pods-CarCare-CarCare DevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare DevTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare DevTests/Pods-CarCare-CarCare DevTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DD783E35B565542B92B19C4 /* Pods-CarCare-CarCare Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare Dev/Pods-CarCare-CarCare Dev.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,8 +178,8 @@
 		01753E4A1CAA666F002DFF41 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				0184BDC31CA911E5005CB43D /* SecondViewController.swift */,
-				0182DE191CAE755900070F25 /* FuelLogViewModel.swift */,
+				0182DE191CAE755900070F25 /* FuelLogsViewModel.swift */,
+				01C7CE591CBF466400A5BFCA /* FuelLogCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 		0184BDBE1CA911E5005CB43D /* CarCare */ = {
 			isa = PBXGroup;
 			children = (
+				01C7CE5C1CBF4CC100A5BFCA /* Controllers */,
 				01753E4C1CAA67D7002DFF41 /* Helpers */,
 				01753E4B1CAA67CD002DFF41 /* Stores */,
 				01753E4A1CAA666F002DFF41 /* ViewModels */,
@@ -249,6 +253,14 @@
 				01753E651CAA832C002DFF41 /* CarCare Dev Info.plist */,
 			);
 			path = CarCare;
+			sourceTree = "<group>";
+		};
+		01C7CE5C1CBF4CC100A5BFCA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01C7CE601CBF50A700A5BFCA /* FuelLogViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		3A079ACC8CFB0C166412EF5C /* Frameworks */ = {
@@ -615,15 +627,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01753E561CAA832C002DFF41 /* SecondViewController.swift in Sources */,
 				01753E571CAA832C002DFF41 /* AppDelegate.swift in Sources */,
 				0182DDE91CACC6B900070F25 /* FuelLogCell.swift in Sources */,
-				0182DE1B1CAE755900070F25 /* FuelLogViewModel.swift in Sources */,
+				0182DE1B1CAE755900070F25 /* FuelLogsViewModel.swift in Sources */,
 				01753E581CAA832C002DFF41 /* FuelLog.swift in Sources */,
 				0182DDD31CABC57300070F25 /* DefaultData.swift in Sources */,
 				01753E5A1CAA832C002DFF41 /* RxRealm.swift in Sources */,
 				01753E5B1CAA832C002DFF41 /* R.generated.swift in Sources */,
 				0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */,
+				01C7CE5B1CBF466400A5BFCA /* FuelLogCellViewModel.swift in Sources */,
+				01C7CE621CBF50A700A5BFCA /* FuelLogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,15 +652,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0184BDC41CA911E5005CB43D /* SecondViewController.swift in Sources */,
 				0184BDC01CA911E5005CB43D /* AppDelegate.swift in Sources */,
 				0182DDE81CACC6B900070F25 /* FuelLogCell.swift in Sources */,
-				0182DE1A1CAE755900070F25 /* FuelLogViewModel.swift in Sources */,
+				0182DE1A1CAE755900070F25 /* FuelLogsViewModel.swift in Sources */,
 				01753E4E1CAA6CE6002DFF41 /* FuelLog.swift in Sources */,
 				0182DDB01CAB6F4400070F25 /* DefaultData.swift in Sources */,
 				01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */,
 				01753E521CAA780A002DFF41 /* R.generated.swift in Sources */,
 				0182DDD71CABD4E300070F25 /* DBHelper.swift in Sources */,
+				01C7CE5A1CBF466400A5BFCA /* FuelLogCellViewModel.swift in Sources */,
+				01C7CE611CBF50A700A5BFCA /* FuelLogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

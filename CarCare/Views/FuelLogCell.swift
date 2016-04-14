@@ -24,7 +24,7 @@ class FuelLogCell: UITableViewCell {
       // Configure the view for the selected state
   }
 
-  func setViewModel(viewModel: FuelLogViewModel) {
+  func setViewModel(viewModel: FuelLogCellViewModel) {
     
   }
 }

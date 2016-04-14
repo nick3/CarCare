@@ -7,6 +7,9 @@
 //
 
 import XCTest
+import RxSwift
+import NSObject_Rx
+
 @testable import CarCare_Dev
 
 class CarCare_DevTests: XCTestCase {
@@ -21,10 +24,14 @@ class CarCare_DevTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-      DefaultData.create()
+    func testFuelLogModelView() {
+      let flViewModel = FuelLogsViewModel()
+      let fuelLogs = flViewModel.fuelLogs
+      fuelLogs.subscribe { event in
+        print("2->\(event)")
+      }
+      .addDisposableTo(rx_disposeBag)
+      flViewModel.loadFromDB()
     }
     
     func testPerformanceExample() {

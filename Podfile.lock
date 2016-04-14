@@ -4,37 +4,43 @@ PODS:
     - ChameleonFramework/Default
   - Eureka (1.5.0)
   - Format (0.2.0)
+  - GCDKit (1.2.2)
+  - GearRefreshControl (0.3.0)
   - NSObject+Rx (1.2.1):
     - RxSwift (~> 2.1)
   - ObjectMapper (1.2.0)
   - R.swift (2.1.0):
     - R.swift.Library (~> 2.0.0)
   - R.swift.Library (2.0.0)
-  - RxCocoa (2.3.1):
-    - RxSwift (~> 2.3.1)
-  - RxSwift (2.3.1)
+  - RxCocoa (2.4):
+    - RxSwift (~> 2.4)
+  - RxSwift (2.4)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift
   - Eureka (~> 1.5.0)
   - Format (~> 0.2)
+  - GCDKit (~> 1.2.2)
+  - GearRefreshControl (~> 0.3)
   - NSObject+Rx
   - ObjectMapper (~> 1.2.0)
   - R.swift (~> 2.1.0)
-  - RxCocoa (~> 2.3.1)
-  - RxSwift (~> 2.3.1)
+  - RxCocoa (~> 2.4)
+  - RxSwift (~> 2.4)
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Eureka: 2fb37bb50569c62ee3284689d5b7aca694b040e0
   Format: f7dfbca0a5f2890f0001192692da8558b9a6f9d7
+  GCDKit: 15e3d514cbf5d56699b2716b798031f778fb48c2
+  GearRefreshControl: c7b1abac8a298f180df48c1bc450469e98840c46
   NSObject+Rx: 5d032a7f161602dec6b82dcf12731e91ce15b8da
   ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
   R.swift: efff131531b5cf142e28fd94957806ff71ccbcf2
   R.swift.Library: 9f4b2d12040daa1ffe336d8f7e1574f73721fd01
-  RxCocoa: a2baaf3462b989559a51dce59d78fbebb8fe0afa
-  RxSwift: 829b2843e9eddc77a02cb3f5117f0d55f8f646f1
+  RxCocoa: 7d6cd877de99f5640306b3d6cf87f580c1d91b61
+  RxSwift: 67b9ef4e8b34fb394e200e754c6a09cc16559f94
 
-PODFILE CHECKSUM: 256b693572bba34b85f41dcd670ffeef4343dd64
+PODFILE CHECKSUM: 7c57027a85d134dad729f9075ef2eeddc15fcf85
 
 COCOAPODS: 1.0.0.beta.5

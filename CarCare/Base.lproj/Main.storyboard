@@ -9,7 +9,7 @@
         <!--加油记录列表-->
         <scene sceneID="gib-kR-ecz">
             <objects>
-                <tableViewController id="90t-O2-E1N" userLabel="加油记录列表" sceneMemberID="viewController">
+                <tableViewController id="90t-O2-E1N" userLabel="加油记录列表" customClass="FuelLogViewController" customModule="CarCare" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="HhI-87-pkK">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
