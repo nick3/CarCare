@@ -48,6 +48,8 @@
 		01C7CE651CBF812C00A5BFCA /* FuelLogEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE631CBF812C00A5BFCA /* FuelLogEditViewController.swift */; };
 		01C7CE671CBFA06300A5BFCA /* FuelLogEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE661CBFA06300A5BFCA /* FuelLogEditViewModel.swift */; };
 		01C7CE681CBFA06300A5BFCA /* FuelLogEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE661CBFA06300A5BFCA /* FuelLogEditViewModel.swift */; };
+		01C7CE6A1CC0BAF000A5BFCA /* RxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE691CC0BAF000A5BFCA /* RxHelper.swift */; };
+		01C7CE6B1CC0BAF000A5BFCA /* RxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7CE691CC0BAF000A5BFCA /* RxHelper.swift */; };
 		A219F7D8FB945CDB726485DE /* Pods_CarCare_CarCare_DevTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4016D72E05B7EDDB2F4973AF /* Pods_CarCare_CarCare_DevTests.framework */; };
 		CD37F01A671B7D68D7FBBAE0 /* Pods_CarCare_CarCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA140DF72278F54EF4B7B5AA /* Pods_CarCare_CarCare.framework */; };
 		D2BCADA354E6D7CC6849E5F0 /* Pods_CarCare_CarCare_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C1BB6B4FAA4DB20B029886 /* Pods_CarCare_CarCare_Dev.framework */; };
@@ -117,6 +119,7 @@
 		01C7CE601CBF50A700A5BFCA /* FuelLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogViewController.swift; sourceTree = "<group>"; };
 		01C7CE631CBF812C00A5BFCA /* FuelLogEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogEditViewController.swift; sourceTree = "<group>"; };
 		01C7CE661CBFA06300A5BFCA /* FuelLogEditViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelLogEditViewModel.swift; sourceTree = "<group>"; };
+		01C7CE691CC0BAF000A5BFCA /* RxHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxHelper.swift; sourceTree = "<group>"; };
 		0B1EBCA021E1570D11F7778E /* Pods-CarCare-CarCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCareTests/Pods-CarCare-CarCareTests.release.xcconfig"; sourceTree = "<group>"; };
 		3451FDF36B9F91646CDD6B1C /* Pods-CarCare-CarCare DevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare DevTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare DevTests/Pods-CarCare-CarCare DevTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DD783E35B565542B92B19C4 /* Pods-CarCare-CarCare Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarCare-CarCare Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarCare-CarCare Dev/Pods-CarCare-CarCare Dev.debug.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +207,7 @@
 			children = (
 				01753E4F1CAA778D002DFF41 /* RxRealm.swift */,
 				0182DDD61CABD4E300070F25 /* DBHelper.swift */,
+				01C7CE691CC0BAF000A5BFCA /* RxHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -643,6 +647,7 @@
 				01C7CE681CBFA06300A5BFCA /* FuelLogEditViewModel.swift in Sources */,
 				01753E5A1CAA832C002DFF41 /* RxRealm.swift in Sources */,
 				01753E5B1CAA832C002DFF41 /* R.generated.swift in Sources */,
+				01C7CE6B1CC0BAF000A5BFCA /* RxHelper.swift in Sources */,
 				01C7CE651CBF812C00A5BFCA /* FuelLogEditViewController.swift in Sources */,
 				0182DDD81CABD99E00070F25 /* DBHelper.swift in Sources */,
 				01C7CE5B1CBF466400A5BFCA /* FuelLogCellViewModel.swift in Sources */,
@@ -670,6 +675,7 @@
 				01C7CE671CBFA06300A5BFCA /* FuelLogEditViewModel.swift in Sources */,
 				01753E501CAA778D002DFF41 /* RxRealm.swift in Sources */,
 				01753E521CAA780A002DFF41 /* R.generated.swift in Sources */,
+				01C7CE6A1CC0BAF000A5BFCA /* RxHelper.swift in Sources */,
 				01C7CE641CBF812C00A5BFCA /* FuelLogEditViewController.swift in Sources */,
 				0182DDD71CABD4E300070F25 /* DBHelper.swift in Sources */,
 				01C7CE5A1CBF466400A5BFCA /* FuelLogCellViewModel.swift in Sources */,

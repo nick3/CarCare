@@ -20,6 +20,23 @@ class Fuel: Object, Equatable {
   override static func primaryKey() -> String {
     return "name"
   }
+  
+  override var description: String {
+    var typeDesc: String = ""
+    if let type = FuelType(rawValue: self.type) {
+      switch type {
+      case .Petrol:
+        typeDesc = "汽油"
+      case .Diesel:
+        typeDesc = "柴油"
+      case .Electric:
+        typeDesc = "电力"
+      case .Hydrogen:
+        typeDesc = "氢燃料"
+      }
+    }
+    return "\(name) \(typeDesc)"
+  }
 }
 
 func ==(lhs: Fuel, rhs: Fuel) -> Bool {
